@@ -24,6 +24,8 @@ body {
     letter-spacing: -0.01rem;
     line-height: 1.2;
     font-weight:normal;
+    
+    background: #000;
 }
 
 #content{
@@ -32,6 +34,18 @@ body {
     align-items: flex-start;
     flex-direction: column;
     height: 100vh;
+}
+    
+    
+#subscribe{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    padding: 1rem 1.4rem;
+    border-radius: 10rem;
+    background: #fff;
 }
 
 a {
@@ -50,9 +64,6 @@ p {
     max-width:400px; 
     display:flex;
     align-items: flex-start;
-    background: #fff;
-    padding: 1rem 1.6rem;
-    border-radius: 10rem;
 
 }
 
@@ -111,6 +122,8 @@ p {
 <body>
 
 <div id=content>
+<div id="subscribe">
+    
 <form action="https://app.audienceful.com/api/subscribe/LyVHRoibjshnENRg2Vq9iu/" method="post" class="audienceful-form">
 
   <div class="f-row">
@@ -121,6 +134,8 @@ p {
   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b28-ft" tabindex="-1" value=""></div>
 
 </form>
+</div>
+    
 </div>
 </body>
 
